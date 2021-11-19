@@ -1,0 +1,124 @@
+.contenedor{
+width:85%;
+margin-left:7.5;
+padding-top:4%;
+font-family:georgia, times, serif;
+
+margin-left:7.5%;
+position: absolute;
+top: 0;
+
+height:100%;
+
+
+}
+.fondo{
+
+	height:120%;
+	width:100%;
+}
+#fondoimagen
+{
+	 width: 100%;  /* en porcentaje (el highlight del foro lo trasforma) */
+    height: 100%;
+    top:0;
+    left:0;
+	both:0;
+
+    z-index: -1;   
+	
+}
+.bloque1
+{
+	display:flex;
+	 flex-direction: row;
+
+	justify-content: space-between;
+}
+.textoizquierda{
+
+	height:40%;
+	width:60%;
+	
+}
+.texto1
+{ 
+font-size:25px;
+line-height:35px;
+	
+}
+.chab{
+	
+	height:400px;
+	width:300px;
+}
+
+
+.titulo1
+{color:#4bbe8e;
+	font-size:50px;
+	line-height:50px;
+	
+	
+}
+
+.contenedorboton
+{ display:flex;
+	padding-top:50px;
+	justify-content:center;
+	
+}
+
+.contenedorboton a{
+width: 100%;
+}
+.boton{
+	
+	    background-color: #4BBE8E;
+    width: 20%;
+    align-self: center;
+    border: 0;
+    color: #fff;
+    margin: 20px 0;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 800px) {
+  .bloque1 {
+    flex-direction: column;
+	justify-content: center;
+	text-align:center;
+	width: 100%;
+  }
+  .imagenderecha{
+	  order: 1;
+	
+  }
+  .textoizquierda{
+	  text-align:center;
+	  order:2;
+
+  }
+  
+  .contenedor{
+ display: block;
+ align-self: center;
+}
+
+.textoizquierda{
+	margin: auto;
+	display: block;
+}
+.contenedorboton button{
+	width: 100%;
+}
+
+.contenedorboton a{
+	width: 50%;
+}
+ 
+}
+
+
