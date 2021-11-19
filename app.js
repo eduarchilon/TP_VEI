@@ -35,7 +35,7 @@ $(document).ready(function(){
         <div class="alerta__container">
             <button type="button" id="btn-close">X</button>
             <div class="alerta__titulo">
-                <h3>¡Hola <span>Usuario</span>!</h3>
+                <h3>¡Hola <span>Rocio</span>!</h3>
             </div>
             <div class="alerta__mensaje">
                 <p>Recordá que hoy tenes la sesión con la
