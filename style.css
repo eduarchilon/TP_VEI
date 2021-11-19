@@ -85,6 +85,10 @@ header{
     margin-right: 10px;
 }
 
+.item-rojo a{
+    color: red;
+}
+
 .login img{
     height: 80%;
     display: block;
