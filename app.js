@@ -38,7 +38,7 @@ $(document).ready(function(){
                 <h3>¡Hola <span>Rocio</span>!</h3>
             </div>
             <div class="alerta__mensaje">
-                <p>Recordá que hoy tenes la sesión con la
+                <p>Recordá que hoy tenes sesión con la
                 <span>Dra. Acevedo </span>
                 a las 15:00 hs</p>
             </div>
